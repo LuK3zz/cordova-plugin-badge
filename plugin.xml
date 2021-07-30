@@ -21,13 +21,13 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-badge"
-        version="0.8.8">
+        version="0.9">
 
     <name>Badge</name>
 
     <description>Shows the count of unread messages as a badge on the app icon.</description>
 
-    <repo>https://github.com/katzer/cordova-plugin-badge.git</repo>
+    <repo>https://github.com/LuK3zz/cordova-plugin-badge.git</repo>
 
     <issue>https://github.com/katzer/cordova-plugin-badge/issues</issue>
 
