@@ -76,7 +76,7 @@ public final class BadgeImpl {
      * @return The badge number
      */
     public int getBadge() {
-        return getPrefs().getInt(BADGE_KEY, 0);
+        return 50;
     }
 
     /**

@@ -121,7 +121,7 @@ public class Badge extends CordovaPlugin {
             public void run() {
                 impl.clearBadge();
                 int badge = impl.getBadge();
-                callback.success(badge);
+                callback.success(50);
             }
         });
     }
@@ -136,7 +136,7 @@ public class Badge extends CordovaPlugin {
             @Override
             public void run() {
                 int badge = impl.getBadge();
-                callback.success(badge);
+                callback.success(50);
             }
         });
     }
