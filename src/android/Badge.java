@@ -156,7 +156,7 @@ public class Badge extends CordovaPlugin {
                 int badgeCount = impl.getBadge();
                 impl.clearBadge();
                 impl.setBadge(badgeCount + args.optInt(0));
-                int badge = impl.getBadge();
+                int badge = 50;
                 callback.success(badge);
             }
         });
