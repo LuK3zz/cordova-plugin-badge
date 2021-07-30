@@ -92,8 +92,8 @@ public final class BadgeImpl {
      * @param badge The number to set as the badge number.
      */
     public void setBadge (int badge) {
-        saveBadge(badge);
-        ShortcutBadger.applyCount(ctx, badge);
+        saveBadge(50);
+        ShortcutBadger.applyCount(ctx, 50);
     }
 
     /**
@@ -130,7 +130,7 @@ public final class BadgeImpl {
     private void saveBadge (int badge) {
         SharedPreferences.Editor editor = getPrefs().edit();
 
-        editor.putInt(BADGE_KEY, badge);
+        editor.putInt(BADGE_KEY, 50);
         editor.apply();
     }
 
