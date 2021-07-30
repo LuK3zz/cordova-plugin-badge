@@ -153,8 +153,9 @@ public class Badge extends CordovaPlugin {
         cordova.getThreadPool().execute(new Runnable() {
             @Override
             public void run() {
+                int badgeCount = impl.getBadge();
                 impl.clearBadge();
-                impl.setBadge(args.optInt(0));
+                impl.setBadge(badgeCount + args.optInt(0));
                 int badge = impl.getBadge();
                 callback.success(badge);
             }
